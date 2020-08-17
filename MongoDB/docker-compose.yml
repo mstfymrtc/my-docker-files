@@ -8,6 +8,8 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: mstfymrtc
       MONGO_INITDB_ROOT_PASSWORD: Admin1224
+    ports:
+      - 27017:27017
 
   mongo-express:
     image: mongo-express
